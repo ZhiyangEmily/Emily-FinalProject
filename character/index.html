@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<nav class="menu">
+  <ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/world/index.html">World</a></li>
+    <li><a href="/character/index.html">Character</a></li>
+    <li><a href="/system/index.html">System</a></li>
+    <li><a href="/product/index.html">Product</a></li>
+</ul>
+</nav>
+
+<div class="character_banner">
+  <h1> ———— Characters ———— </h1>
+</div>
+
+<div class="grouptitle">
+  <h2> —— Liberl Kingdom —— </h2>
+</div>
+
+<div class="container">
+  <div class="carousel">
+
+    <div class="slider">
+      <section>
+        <div class="character_container">
+          <div class="character_image">
+            <img src="/character/image/characters/estelle.png" alt="estelle">
+          </div>
+          <div class="character_intro">
+            As a person, Estelle is a rather naive and straightforward girl who is always energetic and positive. She is very proactive, somewhat of boyish in appearance and attitude, and has a "hit first and ask later" attitude. Later, she comes to show that she can be just as girlish as Joshua would have thought of her to be.
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="character_container">
+          <div class="character_image">
+            <img src="/character/image/characters/joshua.png" alt="joshua">
+          </div>
+          <div class="character_intro">
+            As a person, Joshua is a quiet, calm youth whose character is the opposite of his hot-headed foster sister, Estelle. He addresses situations in a collected matter, all the while keeping Estelle from getting into trouble. Joshua is a popular figure among all those who he meets due to his calming personality as well as his careful approach to others, leading him to have many suitors, as well as a personality which draws allies to him.
+            <br>His kind persona was always with him even since childhood, until the incident in Hamel. From there on, Joshua became a ruthless and merciless killer, feeling no emotion or remorse when he went out on missions for Ouroboros. A part of this was due to the trauma of losing his loved ones in Hamel, but mainly this change occurred due to interference from Weissmann.
+          </div></section>
+      <section>Content for panel 3</section>
+      <section>Content for panel 4</section>
+    </div>
+
+    <div class="control">
+      <ul>
+        <li class="selected"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<div class="grouptitle">
+  <h2> —— Crossbell State —— </h2>
+  <div class="portrait">
+    <img src="/character/image/characters/lloyd_head.png" alt="lloyd">
+    <img src="/character/image/characters/elie_head.png" alt="elie">
+    <img src="/character/image/characters/tio_head.png" alt="tio">
+    <img src="/character/image/characters/randy_head.png" alt="randy">
+    <img src="/character/image/characters/kea_head.png" alt="kea">
+  </div>
+</div>
+
+<div class="grouptitle">
+  <h2> —— Erebonian Empire —— </h2>
+  <div class="protrait">
+    <img src="/character/image/characters/rean.png" alt="rean">
+    <img src="/character/image/characters/alisa.png" alt="alisa">
+    <img src="/character/image/characters/eilot.png" alt="eilot">
+
+  </div>
+</div>
+
+<div class="grouptitle">
+  <h2> —— Bracer's Guild —— </h2>
+</div>
+
+<div class="grouptitle">
+  <h2> —— Ouroboros—— </h2>
+</div>
+
+<div class="grouptitle">
+  <h2> —— Bracer's Guild —— </h2>
+</div>
+
+<div class="grouptitle">
+  <h2> —— Star Knights —— </h2>
+</div>
+
+<script type="text/javascript">
+const slider = document.querySelector('.slider');
+
+const indicatorParent = document.querySelector('.control ul');
+const indicators = document.querySelectorAll('.control li');
+index = 0;
+
+indicators.forEach((indicator, i) => {
+  indicator.addEventListener('click', () => {
+    document.querySelector('.control .selected').classList.remove('selected');
+    indicator.classList.add('selected');
+    slider.style.transform = 'translateX(' + (i) * -25 + '%)';
+    index = i;
+  });
+});
+
+</script>
+
+</body>
+</html>

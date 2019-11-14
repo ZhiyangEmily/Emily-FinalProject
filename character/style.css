@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  width:100%;
+
+}
+
+.menu ul{
+  text-align:right;
+  list-style:none;
+  padding-right:50px
+
+}
+
+.menu li {
+  list-style: none;
+  display: inline-block;
+}
+.menu li a {
+  text-decoration: none;
+  position: relative;
+  color: #313131;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: sans-serif;
+  display: block;
+  overflow: hidden;
+  transition: 0.5s all;
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+.menu li a:before {
+  content: '';
+  width: 10px;
+  position: absolute;
+  border-bottom: 2px solid #313131;
+  bottom: 0;
+  right: 150px;
+  transition: 0.5s all;
+}
+.menu li a:hover:before {
+  right: 1px;
+}
+
+.character_banner {
+  display:flex;
+  text-align:center;
+  margin:20px 0px 20px 0px;
+  height:200px;
+  background-image:url("/character/image/character_banner.png");
+  background-size:contain;
+  justify-content:center;
+  align-items:center;
+}
+
+.character_banner h1{
+  color:white;
+}
+
+.grouptitle {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+
+
+
+.container {
+  width: 80%;
+  margin:20px auto;
+}
+
+.carousel {
+  border: 2px solid #416be4;
+  height: 550px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  height: 100%;
+  width: 400%;
+}
+
+.slider section {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+}
+
+.control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+
+.control ul li {
+  width: 5px;
+  height: 5px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.control ul li.selected {
+  background: transparent;
+}
+
+.character_container{
+  align-items:center;
+  height: 90%;
+  width: 90%;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.character_image{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+}
+.character_image img{
+  width:300px;
+  height:450px;
+}
+.character_intro{
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+}
+
+.portrait {
+  margin:80px;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-around;
+}
+
+.portrait img{
+  width:200px;
+  height:200px;
+  padding:20px;
+}
