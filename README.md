@@ -38,4 +38,4 @@ So the steps for me in upcoming weeks would be:
 The map can be highlighted and is clickable to open other pages.
 
 11.18 Character Page and Slider Function Update
-<img src="/Progress Screenshot/character.png" alt="character slider"/>
+<img src="/screenshot/character.png" alt="character slider"/>
