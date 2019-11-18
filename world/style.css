@@ -1,71 +1,158 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background: #DCC1B0;
+  font-family:"Alegreya Sans","sans-serif";
+  font-size:17px;
+  color:;
+  line-height:1.6;
+}
+
+.nation_banner {
+  background-image:url("/world/images/liberl_banner.jpg");
+  background-size:cover;
+  background-position: center;
+  height:100vh;
   display:flex;
   flex-direction:column;
-  align-items: center;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+
 }
 
-.menu {
+.nation_banner h1{
+  font-family:"Niconne","cursive";
+  font-weight:30px;
+  letter-spacing:2px;
+  font-size:100px;
+  line-height:1.2;
+}
+
+.nation_banner p {
+  font-family:"Alegreya Sans","sans-serif";
+  font-size:20px;
+}
+
+.button {
+  font-family:"Alegreya Sans","sans-serif";
+  font-size:18px;
+  text-decoration:none;
+  color:;
+  border: 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+.button:hover{
+  background:white;
+  color:black;
+}
+
+.container {
+  width: 80%;
+  margin:20px auto;
+}
+
+.carousel {
+  height:  100vh;;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  height: 90%;
+  width: 400%;
+}
+
+.slider section {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+}
+
+.control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  left: 50%;
   margin: 0;
   padding: 0;
-  margin-top: 10px;
+  transform: translate(-50%);
+}
+
+.control ul li {
+  width: 5px;
+  height: 5px;
+  background: #333;
+  border: 2px solid;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.control ul li.selected {
+  background: transparent;
+}
+
+.character_container{
+  align-items:center;
+  height: 90%;
+  width: 80%;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.character_image{
   width:100%;
-
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.character_image img{
+  width:300px;
+  height:450px;
 }
 
-.menu ul{
-  text-align:right;
-  list-style:none;
-  padding-right:50px
-
+.character_intro{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
 }
 
-.menu li {
-  list-style: none;
-  display: inline-block;
-}
-.menu li a {
-  text-decoration: none;
-  position: relative;
-  color: #313131;
-  font-size: 14px;
+.character_intro h1{
+  font-family:"Orbitron",sans-serif;
+  font-size:45px;
   font-weight: 700;
-  font-family: sans-serif;
-  display: block;
-  overflow: hidden;
-  transition: 0.5s all;
-  padding: 10px 10px;
-  text-transform: uppercase;
 }
-.menu li a:before {
-  content: '';
-  width: 10px;
-  position: absolute;
-  border-bottom: 2px solid #313131;
-  bottom: 0;
-  right: 150px;
-  transition: 0.5s all;
-}
-.menu li a:hover:before {
-  right: 1px;
-}
-.world_banner{
-  text-align:center;
-  font-family: 'Great Vibes', cursive;
-  font-size:30px;
-  color:#3D313F;
+.character_intro ul li{
+  font-size:16px;
+  font-weight: bold;
+  list-style:square;
 }
 
-.map {
-  width:65%;
+.portrait {
+  margin:80px;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-around;
 }
 
-path{
-  cursor:pointer;
-  fill:#847072;
-  transition:.6s fill;
+.portrait img{
+  width:200px;
+  height:200px;
+  padding:20px;
 }
-
-path:hover {fill:#3D313F;}

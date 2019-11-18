@@ -1,50 +1,27 @@
 body {
   margin: 0;
   padding: 0;
-  background: #f1f1f1;
+  background: #F1FAEE;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
 }
 
-.menu {
-  margin: 0;
-  padding: 0;
-  margin-top: 10px;
-  width:100%;
-
+.map {
+  width:65%;
+}
+.world_title h1{
+  font-family: 'Unica one', cursive;
+  font-size:50px;
+  color:#1D3557;
 }
 
-.menu ul{
-  text-align:right;
-  list-style:none;
-  padding-right:50px
-
+path{
+  cursor:pointer;
+  fill:#1D3557;
+  transition:.6s fill;
 }
 
-.menu li {
-  list-style: none;
-  display: inline-block;
-}
-.menu li a {
-  text-decoration: none;
-  position: relative;
-  color: #313131;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: sans-serif;
-  display: block;
-  overflow: hidden;
-  transition: 0.5s all;
-  padding: 10px 10px;
-  text-transform: uppercase;
-}
-.menu li a:before {
-  content: '';
-  width: 10px;
-  position: absolute;
-  border-bottom: 2px solid #313131;
-  bottom: 0;
-  right: 150px;
-  transition: 0.5s all;
-}
-.menu li a:hover:before {
-  right: 1px;
+path:hover {
+  fill:#A8DADC;
 }
