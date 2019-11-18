@@ -31,6 +31,13 @@ So the steps for me in upcoming weeks would be:
 <li> learning more from class and turtorials about different interactive effects </li>
 <li> start to prototype my website </li>
 
+##Progress
 
+11.12 Map Function Initiated
+<img src="/Progress Screenshot/map.png alt="map"/>
+The map can be highlighted and is clickable to open other pages.                                                
+                                                
+11.18 Character Page and Slider Function Update
+<img src="/Progress Screenshot/character slider.png alt="character slider"/>
 
 
