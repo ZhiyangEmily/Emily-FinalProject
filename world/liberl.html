@@ -16,9 +16,26 @@
   <a href="#" class="button"> Read More</a>
 </header>
 
-<div class="container">
-  <div class="carousel">
+<div class="nation_container">
+    <div class="nation_title">
+        <h1> The Liberl Kingdom リベール王国 </h1>
+    </div>
+    <div class="nation_content">
+        <div class="nation_text">
+            <p>The Liberl Kingdom (リベール王国おうこく) is a kingdom located in southwestern Zemuria. Its mainland is bordered to the south by the Thetis Sea and to the west by an unnamed ocean; to the north by Erebonia; and to the east by Calvard. Its crest is a white falcon.
+              Liberl borrowed its name from the Liber Ark, the floating city developed by the advanced civilisation of ancient Zemuria.It is the primary setting of the Trails in the Sky trilogy.
+            </p>
+        </div>
+        <img src="/world/liberl.png" alt="Liberl_Crest">
+    </div>
+</div>
 
+<div class="container">
+  <div class="character_title">
+      <h1> character </h1>
+  </div>
+
+  <div class="carousel">
     <div class="slider">
       <section>
         <div class="character_container">
@@ -32,9 +49,9 @@
             <li> Age: 19
             <li> Hometown: Lorent
             <li> Occupation: Level-B Bracer
-            <li> Relationship: Cassius Bright (Father), Joshua Bright (Brother & Boyfriend)
+            <li> Relationship: Cassius (Father), Joshua (Brother & Boyfriend)
             </ul>
-            
+
             <p>As a person, Estelle is a rather naive and straightforward girl who is always energetic and positive. She is very proactive, somewhat of boyish in appearance and attitude, and has a "hit first and ask later" attitude. Later, she comes to show that she can be just as girlish as Joshua would have thought of her to be.</p>
 
           </div>
@@ -46,11 +63,61 @@
             <img src="/character/image/characters/joshua.png" alt="joshua">
           </div>
           <div class="character_intro">
-            As a person, Joshua is a quiet, calm youth whose character is the opposite of his hot-headed foster sister, Estelle. He addresses situations in a collected matter, all the while keeping Estelle from getting into trouble. Joshua is a popular figure among all those who he meets due to his calming personality as well as his careful approach to others, leading him to have many suitors, as well as a personality which draws allies to him.
-            <br>His kind persona was always with him even since childhood, until the incident in Hamel. From there on, Joshua became a ruthless and merciless killer, feeling no emotion or remorse when he went out on missions for Ouroboros. A part of this was due to the trauma of losing his loved ones in Hamel, but mainly this change occurred due to interference from Weissmann.
-          </div></section>
-      <section>Content for panel 3</section>
-      <section>Content for panel 4</section>
+            <h1> Joshua Bright </h1>
+
+            <ul>
+            <li> Age: 19
+            <li> Hometown: Hamel
+            <li> Occupation: Level-B Bracer
+            <li> Relationship: Cassius (Foster Father), Estelle (Sister & Girlfriend), Leonhardt (Brother)
+            </ul>
+
+            <p>As a person, Joshua is a quiet, calm youth whose character is the opposite of his hot-headed foster sister, Estelle. Joshua is a popular figure among all those who he meets due to his calming personality as well as his careful approach to others.
+            <br>His kind persona was always with him even since childhood, until the incident in Hamel. From there on, Joshua became a ruthless and merciless killer, feeling no emotion or remorse when he went out on missions for Ouroboros. </p>
+          </div>
+        </div>
+        </section>
+      <section>
+        <div class="character_container">
+          <div class="character_image">
+            <img src="/character/image/characters/klaudia.png" alt="klaudia">
+          </div>
+          <div class="character_intro">
+            <h1> Kloe Rinz </h1>
+
+            <ul>
+            <li> Real Name: Klaudia von Auslese
+            <li> Age: 19
+            <li> Hometown: Grancel
+            <li> Occupation: Jenis Royal Academy Student / Princess / Ambassador
+            <li> Relationship: Alicia von Auslese (grandmother), Sieg (pet falcon), Julia (Royal Guard)
+            </ul>
+
+            <p>Klaudia von Auslese was born and raised through unknown origins, due to her parents passing away during a trip. Since then, she enclosed her true identity under the name "Kloe Rinz" while posing as an ordinary teenage schoolgirl studying at the prestigious Jenis Royal Academy. Kloe was unsure of what to personally do with the limited freedom given, as she was next in line to the royal throne.
+            <br>With encouragement from her friends, she gradually grow into a strong woman who can face directly to her crown.</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="character_container">
+          <div class="character_image">
+            <img src="/character/image/characters/scherazard.png" alt="scherazard">
+          </div>
+          <div class="character_intro">
+            <h1> Scherazard Harvey </h1>
+
+            <ul>
+            <li> Age: 28
+            <li> Hometown: Unknown
+            <li> Occupation: Level-A Bracer
+            <li> Relationship: Cassius (teacher), Olivert (husband), Luciola (sister)
+            </ul>
+
+            <p> Scherazard is seen as loving, trusted woman that is willing to help anyone in need. She enjoys shopping with her friends and is shown to have some skill in fortune-telling as she's frequently seen reading tarot.
+            <br>When she drinks, however, she becomes more bossy and strict about having a good time. Olivier is an active participant as her drinking buddy even if he can barely stomach a couple glasses.</p>
+          </div>
+        </div>
+      </section>
     </div>
 
     <div class="control">
@@ -64,6 +131,12 @@
 
   </div>
 </div>
+
+<div class="nation_container">
+</div>
+
+
+
 <script type="text/javascript">
 const slider = document.querySelector('.slider');
 
@@ -80,5 +153,15 @@ indicators.forEach((indicator, i) => {
   });
 });
 
+function scrollAppear(){
+  var introText = document.querySelector('.nation_text');
+  var introPosition = introText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.3;
+
+  if(introPosition < screenPosition){
+    introText.classList.add('nation_appear');
+  }
+}
+  window.addEventListener('scroll',scrollAppear)
 </script>
 </body>
