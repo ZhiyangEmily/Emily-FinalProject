@@ -41,3 +41,4 @@ The map can be highlighted and is clickable to open other pages.
 <img src="/screenshot/character.png" alt="character slider"/>
 
 11.24 Supporting character gallery added
+11.28 Only Liberl clickable through the map. (/World/liberl.html)
