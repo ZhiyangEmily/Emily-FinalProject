@@ -10,6 +10,8 @@ The audience I want to attract with my website would be JRPG lovers or anyone wh
 
 <br>The reason why I specificlaly target these groups of people is that they are more inclined to buy and play this game and they would be more attracted to characters and story lines (which this game highlights) instead of fancy combatting scenes or gaming system.
 
+<img src="/screenshot/sora.png" alt="sora"/>
+
 <br>Although the game company has its own official website and many gaming wikis have documented the contents, in my opinion, they are not very user-friendly for players who can't speak Japanese and those who want to have a overall understanding about the story. Its official website is all written in Japanese and each game in the series has a separate website for commercial convenience.
 Since all the games in this series are correlated, the idea of building a official website for it came to me. I want to integrate information in all three series and translate them into English so more people would be able to read and motivated to play and enjoy.
 
