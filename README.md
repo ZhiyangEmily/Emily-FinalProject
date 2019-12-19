@@ -35,8 +35,6 @@ webGradients: https://webgradients.com/
 
 
 ## Process
-Beginning:
-<img src="/screenshot/original.png" alt="map"/ >
 
 11.12 Map Function Initiated
 <img src="/screenshot/map0.png" alt="map0"/>
