@@ -12,6 +12,8 @@ body {
   line-height: 1.6;
   background-color: #4A72A5;
   align-items: center;
+  height: 5500px; /* Used to enable scrolling */
+  background: linear-gradient(#56CCF2, #2F80ED, #EB5757);
 }
 
 .nation_banner {

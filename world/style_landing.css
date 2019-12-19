@@ -25,6 +25,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  justify-content: space-between;
 }
 
 img{
@@ -35,4 +36,25 @@ hr {
 
   margin: auto;
   width: 40%;
+}
+h2{
+  font-family: "Alegreya Sans", "sans-serif";
+  font-size: 20px;
+}
+.button {
+  margin:50px;
+  font-family: "Alegreya Sans", "sans-serif";
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #fff;
+  color: black;
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background: #CDC3C1;
+  color: black;
 }

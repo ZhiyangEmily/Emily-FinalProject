@@ -12,6 +12,8 @@ body {
   line-height: 1.6;
   background-color: #5E8162;
   align-items: center;
+  height:8000px;
+  background:linear-gradient(#5E8162,#56B4D3);
 }
 
 .nation_banner {

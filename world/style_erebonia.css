@@ -12,6 +12,8 @@ body {
   line-height: 1.6;
   background-color: #212121;
   align-items: center;
+  height:8300px;
+  background:linear-gradient(#000000 60%,#EB5757);
 }
 
 .nation_banner {
@@ -403,7 +405,7 @@ body {
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 60%;
+  max-width: 800px;
   margin: auto;
   border-style: dotted;
   border-radius: 2px;
