@@ -1,4 +1,4 @@
-#Documentation Guide
+# Documentation Guide
 
 ## Introduction
 My project is an unoffical commercial website for a Japan RPG game series <em>The Legend of Heroes: the Trails Series (英雄伝説シリーズ:軌跡)</em>.
@@ -9,6 +9,8 @@ My project is an unoffical commercial website for a Japan RPG game series <em>Th
 The audience I want to attract with my website would be JRPG lovers or anyone who knows the game.
 
 <br>The reason why I specificlaly target these groups of people is that they are more inclined to buy and play this game and they would be more attracted to characters and story lines (which this game highlights) instead of fancy combatting scenes or gaming system.
+
+<img src="/screenshot/sora.png" alt="sora"/>
 
 <br>Although the game company has its own official website and many gaming wikis have documented the contents, in my opinion, they are not very user-friendly for players who can't speak Japanese and those who want to have a overall understanding about the story. Its official website is all written in Japanese and each game in the series has a separate website for commercial convenience.
 Since all the games in this series are correlated, the idea of building a official website for it came to me. I want to integrate information in all three series and translate them into English so more people would be able to read and motivated to play and enjoy.
@@ -34,17 +36,7 @@ Palettable: https://www.palettable.io/73293E;
 webGradients: https://webgradients.com/
 
 
-## Process:
-I have tried and learned some Html, CSS and JavaScript basics in my resume. I like how these computer languages can create neat layout and pleasant aesthetics, and I am still working on how to make some elements more interactive and interesting than a somewhat static and boring website. I think the aesthtic style and interaction I will put on my project should be compatible with what I intend to convey to my audience. By allowing my audience to interact with this website by simply scrolling, hovering and clicking, I would like them to feel the liveliness of the characters and the fun of watching and playing along the storyline.
-Technically, I think I still have to work more on JavaScript and how it can be linked smoothly with my website. I would like my website to contain those elements from the websites above, and share same aesthetic with the original offcial website.
-
-So the steps for me in upcoming weeks would be:
-<li> learning more from class and turtorials about different interactive effects </li>
-<li> start to prototype my website </li>
-
-##Process
-Beginning:
-<<img src="/screenshot/original.png" alt="map"/>
+## Process
 
 11.12 Map Function Initiated
 <img src="/screenshot/map0.png" alt="map0"/>
@@ -58,7 +50,7 @@ The map can be highlighted and is clickable to open other pages.
 
 11.24 Supporting character gallery added
 
-##Self-reflection and Future Development
+## Self-reflection and Future Development
 
 Working on this project for a month, I have learned a lot about HTML/CSS/JavaScript and learned more about idea, design. While this website is still a very rough prototye, I think it inspires me a lot in how to initiate an idea and how to search for help to deal with difficulties. It also gives me some idea about how to organize a design for other purposes.
 
