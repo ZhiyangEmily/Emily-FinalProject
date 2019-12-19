@@ -59,6 +59,7 @@ The map can be highlighted and is clickable to open other pages.
 11.24 Supporting character gallery added
 
 ##Self-reflection and Future Development
+
 Working on this project for a month, I have learned a lot about HTML/CSS/JavaScript and learned more about idea, design. While this website is still a very rough prototye, I think it inspires me a lot in how to initiate an idea and how to search for help to deal with difficulties. It also gives me some idea about how to organize a design for other purposes.
 
-I believe I will continue working on this project in the future and complete my initial design to make this website more interactive and attractive. For example, I would like to add more information in gaming system to show how this game works and create better visual effects in terms of image-presentation. 
+I believe I will continue working on this project in the future and complete my initial design to make this website more interactive and attractive. For example, I would like to add more information in gaming system to show how this game works and create better visual effects in terms of image-presentation.

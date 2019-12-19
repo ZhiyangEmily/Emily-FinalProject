@@ -5,6 +5,7 @@ body {
   display:flex;
   flex-direction:column;
   align-items: center;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
 .map {
@@ -13,6 +14,11 @@ body {
 .world_title h1{
   font-family: 'Unica one', cursive;
   font-size:50px;
+  color:#1D3557;
+}
+.world_title span{
+  font-family: sans-serif;
+  font-size:14px;
   color:#1D3557;
 }
 
