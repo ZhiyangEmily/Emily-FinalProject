@@ -1,4 +1,4 @@
-#Documentation Guide
+# Documentation Guide
 
 ## Introduction
 My project is an unoffical commercial website for a Japan RPG game series <em>The Legend of Heroes: the Trails Series (英雄伝説シリーズ:軌跡)</em>.
@@ -42,9 +42,10 @@ So the steps for me in upcoming weeks would be:
 <li> learning more from class and turtorials about different interactive effects </li>
 <li> start to prototype my website </li>
 
-##Process
+
+## Process
 Beginning:
-<<img src="/screenshot/original.png" alt="map"/>
+<img src="/screenshot/original.png" alt="map"/ >
 
 11.12 Map Function Initiated
 <img src="/screenshot/map0.png" alt="map0"/>
@@ -58,7 +59,7 @@ The map can be highlighted and is clickable to open other pages.
 
 11.24 Supporting character gallery added
 
-##Self-reflection and Future Development
+## Self-reflection and Future Development
 
 Working on this project for a month, I have learned a lot about HTML/CSS/JavaScript and learned more about idea, design. While this website is still a very rough prototye, I think it inspires me a lot in how to initiate an idea and how to search for help to deal with difficulties. It also gives me some idea about how to organize a design for other purposes.
 
