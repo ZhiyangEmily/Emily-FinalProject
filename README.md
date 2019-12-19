@@ -34,15 +34,6 @@ Palettable: https://www.palettable.io/73293E;
 webGradients: https://webgradients.com/
 
 
-## Process:
-I have tried and learned some Html, CSS and JavaScript basics in my resume. I like how these computer languages can create neat layout and pleasant aesthetics, and I am still working on how to make some elements more interactive and interesting than a somewhat static and boring website. I think the aesthtic style and interaction I will put on my project should be compatible with what I intend to convey to my audience. By allowing my audience to interact with this website by simply scrolling, hovering and clicking, I would like them to feel the liveliness of the characters and the fun of watching and playing along the storyline.
-Technically, I think I still have to work more on JavaScript and how it can be linked smoothly with my website. I would like my website to contain those elements from the websites above, and share same aesthetic with the original offcial website.
-
-So the steps for me in upcoming weeks would be:
-<li> learning more from class and turtorials about different interactive effects </li>
-<li> start to prototype my website </li>
-
-
 ## Process
 Beginning:
 <img src="/screenshot/original.png" alt="map"/ >
