@@ -1,4 +1,4 @@
-# Documentation Guide
+# Emily's Final Project on the <em>Kiseki</em> Series
 
 ## Introduction
 My project is an unoffical commercial website for a Japan RPG game series <em>The Legend of Heroes: the Trails Series (英雄伝説シリーズ:軌跡)</em>.
